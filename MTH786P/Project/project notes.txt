@@ -1,0 +1,36 @@
+- maybe train model without income_annum and compare
+
+"""
+EDA CONCLUSIONS
+---------------
+- The target variable (loan_status) shows moderate class balance.
+- Categorical variables (education, self_employed) do not strongly separate
+  the target marginally, but are retained for conditional effects.
+- Numeric variables show strong correlations, particularly among income,
+  loan amount, and asset-related features, indicating multicollinearity.
+- All variables are retained and multicollinearity will be addressed using
+  L2-regularised (ridge) logistic regression.
+"""
+
+
+To-do:
+- Compare with other models
+- Extra-mile: find relevant articles online for motivation. 
+    Motivation of what? 
+    Maybe for not dropping variables. Our reason: ridge logistic regression handles multicollinearity well by scaling down coefficients that are not relevant.
+
+
+
+  Comparison:
+    Direct:
+    “Performance is comparable to sklearn, validating our implementation”
+    “Minor differences are expected due to optimisation and stopping criteria”
+    “Regularisation improves stability under multicollinearity”
+    “Linear models perform competitively on this dataset”
+
+
+
+
+“The ridge-regularised logistic regression model achieved an accuracy of 91.9% on the test set, comparable to the sklearn implementation (92.1%), validating the correctness of the custom implementation.
+A decision tree classifier achieved higher accuracy (97.4%) and superior ROC performance, suggesting the presence of non-linear interactions among features.
+However, logistic regression remains competitive while offering greater interpretability and robustness to multicollinearity. These results highlight the trade-off between predictive performance and model transparency.”

@@ -1,0 +1,17 @@
+Variables
+
+1 loan_id
+2 no_of_dependents
+3 education
+4 self_employed
+5 income_annum
+6 loan_amount
+7 loan_term
+8 cibil_score
+9 residential_assets_value
+10 commercial_assets_value
+11 luxury_assets_value
+12 bank_asset_value
+
+Target variable
+13 loan_status

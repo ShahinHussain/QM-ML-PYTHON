@@ -1,0 +1,12 @@
+Diabetes is the binary dependent variable in this dataset with categories — pos/neg. We have the following eight independent variables
+
+Pregnant: Number of times pregnant
+Glucose: Plasma glucose concentration (glucose tolerance test)
+Pressure: Diastolic blood pressure (mm Hg)
+Triceps: Skinfold thickness (mm)
+Insulin: 2-Hr serum insulin (mu U/ml)
+Mass: Body mass index (weight in Kg/ (height in m)² )
+Pedigree: Diabetes pedigree function
+Age: Age (years)
+
+Reference: Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer Society Press.

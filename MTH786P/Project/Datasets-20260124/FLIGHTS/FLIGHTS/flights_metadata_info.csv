@@ -1,0 +1,16 @@
+Input variables 
+
+1 Airline
+2 Date_of_Journey
+3 Source
+4 Destination
+5 Route
+6 Dep_Time
+7 Arrival_Time
+8 Duration
+9 Total_Stops
+10 Additional_Info	
+
+Target:
+
+11 Price
