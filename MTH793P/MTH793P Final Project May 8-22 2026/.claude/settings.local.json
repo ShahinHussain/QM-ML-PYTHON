@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(ls \"\\\\\\\\wsl.localhost\\\\Ubuntu\\\\home\\\\sami\\\\QM\\\\QM-ML-PYTHON\\\\MTH793P\\\\MTH793P Final Project May 8-22 2026\")"
-    ]
-  }
-}
